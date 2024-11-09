@@ -1,0 +1,9 @@
+import cmath
+
+val = input()
+
+a = cmath.phase(complex(val))
+b = abs(complex(val))
+
+print(b)
+print(a)
