@@ -2,8 +2,8 @@ import cmath
 
 val = input()
 
-a = cmath.phase(complex(val))
-b = abs(complex(val))
+a = abs(complex(val))
+b = cmath.phase(complex(val))
 
-print(b)
 print(a)
+print(b)
